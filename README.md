@@ -18,14 +18,32 @@ Main script(nimda_ransomware.py) |-------docs
 ##prerequisites
 -python 3.13.3 or python 3.x
 -A virtual machine (e.g ..., VirtualBox with Kali Linux or Windows) for safetesting
+##prerequisites
+python 3.x or later
+
+pip 25.1.1 from /usr/lib/python3/dist-packages/pip (python 3.13)
 
 ## Installation 
+To avoid conflicts with pythons externally managed enironment lets setup 
+virtual environment after that clone the repo as follows
+```bash
+create a folder for instance for this demonstration i'm calling my folder as cisco_env
+and type the cmd
+python3 -m venv cisco_env
+``bash
+source cisco_env/bin/activate
+
+After typing the necessary cmds stated above you virtual environment should be up and running
+
+## we are using virtual environment for this installation package because this is an externally managed environment
+
 clone the repository 
 ```bash 
 git clone https://github.com/kabungoitus/nimda_ransomware.git
 cd nimda_ransomware
 
-no additional dependences are needed (uses os,shutil,argparse)
+
+no additional dependences are needed (uses os,shutil,argparse & cryptographypython)
 
 ##Warning test only in a virtual machine to avoid data loss
 
