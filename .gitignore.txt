@@ -1,0 +1,40 @@
+# Python specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.log
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
+
+# Project specific ignores (if needed)
+# Encrypted or decrypted files (if generated separately)
+# *.enc
+# *.dec
+
+# Sensitive information (if applicable)
+# secrets.txt
+# config.ini
+
+# End of .gitignore
